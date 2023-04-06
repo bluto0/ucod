@@ -1,106 +1,115 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>C0NT4CT U5</title>
-        <style>
-            .logo {
-                display: inline-block;
-                vertical-align: middle;
-                height: 4em;
-            }
-            .header {
-                display: flex;
-                align-items: center;
-                justify-content: space-between; /* Add space between logo and header buttons */
-                padding: 20px; /* Add some padding to the header */
-                background-color: #FFFFFF; /* Change the header background color */
-            }
-            .header h1 {
-                font-size: 30px;
-                margin: 0; /* Remove default margin for h1 */
-                font-family: "Roboto", sans-serif;
-            }
-            .header-button {
-                background-color: #d9d9d9;
-                color: black;
-                border: none;
-                padding: 10px;
-                border-radius: 2px;
-                cursor: pointer;
-                width: 200px;
-                height: 40px;
-                margin-left: 10px;
-                font-family: "Roboto", sans-serif;
-                font-size: medium;
-            }
-            .body {
-                background-color: #FFFFFF; /* Change the body background color */
-                padding: 20px; /* Add some padding to the body */
-            }
-            label {
-                display: block;
-                font-weight: bold;
-                margin-top: 10px;
-            }
-            input[type="text"],
-            input[type="email"],
-            textarea {
-                width: 100%;
-                padding: 10px;
-                margin-top: 5px;
-                margin-bottom: 20px;
-                border-radius: 2px;
-                border: none;
-                background-color: #f2f2f2;
-              	font-family: "Roboto", sans-serif;
-                font-size: medium;
-            }
-            input[type="file"] {
-                margin-top: 20px;
-            }
-            input[type="submit"] {
-                background-color: #d9d9d9;
-                color: black;
-                border: none;
-                padding: 10px;
-                border-radius: 2px;
-                cursor: pointer;
-                width: 100%;
-                font-family: "Roboto", sans-serif;
-              	font-size: medium;
-            }
-            .form-container {
-                max-width: 600px;
-                margin: 0 auto;
-            }
-        </style>
-    </head>
-    <body>
-        <header class="header">
-            <a href="index.html"><img class="logo" src="logo.jpg" alt="logo"></a>
-            <nav>
-                <a href="about_us.html"><button class="header-button">About Us</button></a>
-                <a href="contact_us.html"><button class="header-button">Contact Us</button></a>
-                <a href="contribute_a_dataset.html"><button class="header-button">Contribute a Dataset</button></a>
-            </nav>
-        </header>
-        <div class="body">
-            <div class="form-container">
-                <h1>Contact Us</h1>
-                <form action="#" method="post">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" required>
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>     
-                    <label for="message">Message</label>
-                    <input type="message" id="message" name="message" required>
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
+  <head>
+    <meta charset="UTF-8">
+    <title>C0NT4CT U5</title>
+    <style>
+      .logo {
+        display: inline-block;
+        vertical-align: middle;
+        height: 4em;
+      }
+
+      .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* Add space between logo and header buttons */
+        padding: 20px;
+        /* Add some padding to the header */
+        background-color: #FFFFFF;
+        /* Change the header background color */
+      }
+
+      .header h1 {
+        font-size: 30px;
+        margin: 0;
+        font-family: "Roboto", sans-serif;
+      }
+
+      .header-button {
+        background-color: #d9d9d9;
+        color: black;
+        border: none;
+        padding: 10px;
+        border-radius: 2px;
+        cursor: pointer;
+        width: 200px;
+        height: 40px;
+        margin-left: 10px;
+        font-family: "Courier New", Normal;
+        font-size: medium;
+      }
+
+      .body {
+        background-color: #FFFFFF;
+        /* Change the body background color */
+        padding: 20px;
+        /* Add some padding to the body */
+      }
+
+      label {
+        display: block;
+        font-weight: bold;
+        margin-top: 10px;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      input[type="message"],
+      textarea {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        border-radius: 2px;
+        border: none;
+        background-color: #f2f2f2;
+        font-family: "Roboto", sans-serif;
+        font-size: medium;
+      }
+
+      input[type="file"] {
+        margin-top: 20px;
+      }
+
+      input[type="submit"] {
+        background-color: #d9d9d9;
+        color: black;
+        border: none;
+        padding: 10px;
+        border-radius: 2px;
+        cursor: pointer;
+        width: 100%;
+        font-family: "Courier New", Normal;
+        font-size: medium;
+      }
+
+      .form-container {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html"><img class="logo" src="logo.jpg" alt="logo"></a>
+      <nav>
+        <a href="about_us.html"><button class="header-button">About Us</button></a>
+        <a href="contact_us.html"><button class="header-button">Contact Us</button></a>
+        <a href="contribute_a_dataset.html"><button class="header-button">Contribute a Dataset</button></a>
+      </nav>
+    </header>
+    <div class="body">
+      <div class="form-container">
+        <h1>C0NT4CT U5</h1>
+        <form action="#" method="post">
+          <label for="name">N4ME</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">EM41L</label>
+          <input type="email" id="email" name="email" required>
+          <label for="message">M3SS4GE</label>
+          <input type="message" id="message" name="message" required>
+      </div class="form-container">
+    </div>
